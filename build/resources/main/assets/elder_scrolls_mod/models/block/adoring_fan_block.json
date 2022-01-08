@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elder_scrolls_mod:blocks/adoring_fan",
+    "up": "elder_scrolls_mod:blocks/adoring_fan",
+    "north": "elder_scrolls_mod:blocks/adoring_fan",
+    "east": "elder_scrolls_mod:blocks/adoring_fan",
+    "south": "elder_scrolls_mod:blocks/adoring_fan",
+    "west": "elder_scrolls_mod:blocks/adoring_fan",
+    "particle": "elder_scrolls_mod:blocks/adoring_fan"
+  }
+}
