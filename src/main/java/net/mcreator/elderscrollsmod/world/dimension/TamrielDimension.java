@@ -101,6 +101,10 @@ public class TamrielDimension extends ElderScrollsModModElements.ModElement {
 				.getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("river")).getGenerationSettings().getSurfaceBuilder().get()
 				.getConfig().getUnder().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("elder_scrolls_mod:auridon_biome")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("elder_scrolls_mod:auridon_biome")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		DeferredWorkQueue.runLater(() -> {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()

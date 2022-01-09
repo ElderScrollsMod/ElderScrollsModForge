@@ -1,0 +1,144 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tamriel",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamriel",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Worldgen"
+    },
+    {
+      "name": "Nirnroot",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nirnroot",
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "AdoringFanBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adoring_fan_block",
+      "path": "~/Blocks/Other"
+    },
+    {
+      "name": "ElderScrollsMod",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_scrolls_mod"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "adoring_fan_greeting",
+      "files": [
+        "adoring_fan_greeting"
+      ],
+      "category": "block",
+      "subtitle": "Adoring Fan"
+    },
+    {
+      "name": "adoring_fan_bye",
+      "files": [
+        "adoring_fan_bye"
+      ],
+      "category": "block",
+      "subtitle": "Adoring Fan"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabelder_scrolls_mod": "Elder Scrolls Mod",
+      "block.elder_scrolls_mod.nirnroot": "Nirnroot",
+      "block.elder_scrolls_mod.adoring_fan_block": "Adoring Fan Block",
+      "item.elder_scrolls_mod.tamriel": "Tamriel Portal Igniter",
+      "subtitles.adoring_fan_greeting": "Adoring Fan",
+      "subtitles.adoring_fan_bye": "Adoring Fan"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Worldgen",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Plants",
+            "children": []
+          },
+          {
+            "name": "Decoration Blocks",
+            "children": []
+          },
+          {
+            "name": "Ore",
+            "children": []
+          },
+          {
+            "name": "Other",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Armour",
+            "children": []
+          },
+          {
+            "name": "Materials",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Entities",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "elder_scrolls_mod",
+    "modName": "Elder Scrolls Mod",
+    "version": "1.0.0",
+    "author": "aaaa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.elderscrollsmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
