@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "elder_scrolls_mod:blocks/altmeri_wood_planks"
+  }
+}

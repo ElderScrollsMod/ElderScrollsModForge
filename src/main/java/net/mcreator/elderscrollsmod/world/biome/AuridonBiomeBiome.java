@@ -1,17 +1,14 @@
 
 package net.mcreator.elderscrollsmod.world.biome;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.common.BiomeDictionary;
 
 import net.minecraft.world.gen.trunkplacer.MegaJungleTrunkPlacer;
 import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
-import net.minecraft.world.gen.treedecorator.TreeDecoratorType;
 import net.minecraft.world.gen.treedecorator.LeaveVineTreeDecorator;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -33,18 +30,16 @@ import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.world.IWorldWriter;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.util.math.MutableBoundingBox;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.state.BooleanProperty;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.elderscrollsmod.block.Altmeri_WoodLogBlock;
+import net.mcreator.elderscrollsmod.block.Altmeri_WoodLeavesBlock;
 import net.mcreator.elderscrollsmod.ElderScrollsModModElements;
-
-import java.util.Set;
 
 import com.google.common.collect.ImmutableList;
 
@@ -61,18 +56,19 @@ public class AuridonBiomeBiome extends ElderScrollsModModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-52).setWaterColor(4159204).setWaterFogColor(329011).withSkyColor(-52)
-						.withFoliageColor(-10053376).withGrassColor(-10053376).build();
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
+						.withSkyColor(7972607).withFoliageColor(-10053376).withGrassColor(-10053376).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
-						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.OAK_LOG.getDefaultState()),
-								new SimpleBlockStateProvider(Blocks.OAK_LEAVES.getDefaultState()),
-								new JungleFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 2),
-								new MegaJungleTrunkPlacer(8, 2, 19), new TwoLayerFeature(1, 1, 2)))
-										.setDecorators(ImmutableList.of(CustomLeaveVineTreeDecorator.instance, CustomTrunkVineTreeDecorator.instance))
-										.build())
+						.withConfiguration(
+								(new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Altmeri_WoodLogBlock.block.getDefaultState()),
+										new SimpleBlockStateProvider(Altmeri_WoodLeavesBlock.block.getDefaultState()),
+										new JungleFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 2),
+										new MegaJungleTrunkPlacer(8, 2, 19), new TwoLayerFeature(1, 1, 2))).setDecorators(
+												ImmutableList.of(TrunkVineTreeDecorator.field_236879_b_, LeaveVineTreeDecorator.field_236871_b_))
+												.build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(5, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
@@ -102,6 +98,7 @@ public class AuridonBiomeBiome extends ElderScrollsModModElements.ModElement {
 				DefaultBiomeFeatures.withTallGrass(biomeGenerationSettings);
 				DefaultBiomeFeatures.withSimpleSeagrass(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(EntityType.WOLF, 15, 5, 2));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.FOREST).depth(0.1f).scale(0.2f)
 						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
@@ -114,51 +111,5 @@ public class AuridonBiomeBiome extends ElderScrollsModModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.FOREST,
 				BiomeDictionary.Type.HILLS, BiomeDictionary.Type.MODIFIED);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
-	}
-
-	private static class CustomLeaveVineTreeDecorator extends LeaveVineTreeDecorator {
-		public static final CustomLeaveVineTreeDecorator instance = new CustomLeaveVineTreeDecorator();
-		public static com.mojang.serialization.Codec<LeaveVineTreeDecorator> codec;
-		public static TreeDecoratorType tdt;
-		static {
-			codec = com.mojang.serialization.Codec.unit(() -> instance);
-			tdt = new TreeDecoratorType(codec);
-			tdt.setRegistryName("auridon_biome_lvtd");
-			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
-		}
-
-		@Override
-		protected TreeDecoratorType<?> func_230380_a_() {
-			return tdt;
-		}
-
-		@Override
-		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
-			this.func_227423_a_(ww, bp, Blocks.VINE.getDefaultState(), sbc, mbb);
-		}
-	}
-
-	private static class CustomTrunkVineTreeDecorator extends TrunkVineTreeDecorator {
-		public static final CustomTrunkVineTreeDecorator instance = new CustomTrunkVineTreeDecorator();
-		public static com.mojang.serialization.Codec<CustomTrunkVineTreeDecorator> codec;
-		public static TreeDecoratorType tdt;
-		static {
-			codec = com.mojang.serialization.Codec.unit(() -> instance);
-			tdt = new TreeDecoratorType(codec);
-			tdt.setRegistryName("auridon_biome_tvtd");
-			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
-		}
-
-		@Override
-		protected TreeDecoratorType<?> func_230380_a_() {
-			return tdt;
-		}
-
-		@Override
-		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
-			this.func_227423_a_(ww, bp, Blocks.VINE.getDefaultState(), sbc, mbb);
-		}
 	}
 }
