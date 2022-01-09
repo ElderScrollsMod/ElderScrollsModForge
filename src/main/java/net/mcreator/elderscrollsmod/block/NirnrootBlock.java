@@ -29,7 +29,6 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.util.Direction;
 import net.minecraft.potion.Effects;
 import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.loot.LootContext;
@@ -39,6 +38,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
@@ -116,8 +116,8 @@ public class NirnrootBlock extends ElderScrollsModModElements.ModElement {
 
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
-			super(Effects.SPEED, 100, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT)
-					.hardnessAndResistance(0f, 0f).setLightLevel(s -> 3));
+			super(Effects.SPEED, 100, Block.Properties.create(Material.PLANTS, MaterialColor.LIGHT_BLUE).doesNotBlockMovement().sound(SoundType.PLANT)
+					.hardnessAndResistance(0f, 0f).setLightLevel(s -> 5));
 			setRegistryName("nirnroot");
 		}
 
@@ -127,18 +127,8 @@ public class NirnrootBlock extends ElderScrollsModModElements.ModElement {
 		}
 
 		@Override
-		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 100;
-		}
-
-		@Override
 		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
 			return PathNodeType.OPEN;
-		}
-
-		@Override
-		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 60;
 		}
 
 		@Override
@@ -151,7 +141,7 @@ public class NirnrootBlock extends ElderScrollsModModElements.ModElement {
 
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.PLAINS;
+			return PlantType.BEACH;
 		}
 	}
 }

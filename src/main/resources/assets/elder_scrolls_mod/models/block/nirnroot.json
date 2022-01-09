@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "elder_scrolls_mod:blocks/no_texture",
-    "particle": "elder_scrolls_mod:blocks/no_texture"
+    "cross": "elder_scrolls_mod:blocks/nirnroot",
+    "particle": "elder_scrolls_mod:blocks/nirnroot"
   }
 }

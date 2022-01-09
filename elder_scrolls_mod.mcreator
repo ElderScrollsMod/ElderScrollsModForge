@@ -10,7 +10,7 @@
       "metadata": {
         "ep": true
       },
-      "path": "~/Other"
+      "path": "~/Worldgen"
     },
     {
       "name": "Nirnroot",
@@ -72,7 +72,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Other",
+        "name": "Worldgen",
         "children": []
       },
       {

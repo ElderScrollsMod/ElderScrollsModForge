@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "elder_scrolls_mod:items/no_texture"
+    "layer0": "elder_scrolls_mod:blocks/nirnroot"
   }
 }
