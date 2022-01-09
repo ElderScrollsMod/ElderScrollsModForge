@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Altmeri_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Altmeri_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Altmeri_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Altmeri_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Altmeri_WoodWood"
+    },
+    "name": "altmeri_wood_wood_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tamriel",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tamriel",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Worldgen"
+    },
+    {
+      "name": "Nirnroot",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nirnroot",
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "AdoringFanBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adoring_fan_block",
+      "path": "~/Blocks/Other"
+    },
+    {
+      "name": "ElderScrollsMod",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_scrolls_mod"
+    },
+    {
+      "name": "AuridonBiome",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auridon_biome",
+      "path": "~/Worldgen"
+    },
+    {
+      "name": "Altmeri_WoodWood",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_wood",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodLog",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_log",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodPlanks",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_planks",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodLeaves",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_leaves",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodStairs",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_stairs",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodSlab",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_slab",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodFence",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_fence",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodFenceGate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_fence_gate",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodPressurePlate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_pressure_plate",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodButton",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_button",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodItemsTag",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_items_tag",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_wood_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_planks_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_stairs_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_slab_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_fence_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_fence_gate_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_pressure_plate_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_button_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    },
+    {
+      "name": "Altmeri_WoodStickRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altmeri_wood_stick_recipe",
+      "path": "~/Blocks/Plants/Aldmeri Wood"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "adoring_fan_greeting",
+      "files": [
+        "adoring_fan_greeting"
+      ],
+      "category": "block",
+      "subtitle": "Adoring Fan"
+    },
+    {
+      "name": "adoring_fan_bye",
+      "files": [
+        "adoring_fan_bye"
+      ],
+      "category": "block",
+      "subtitle": "Adoring Fan"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.elder_scrolls_mod.altmeri_wood_button": "Altmeri_Wood Button",
+      "block.elder_scrolls_mod.nirnroot": "Nirnroot",
+      "block.elder_scrolls_mod.altmeri_wood_leaves": "Altmeri_Wood Leaves",
+      "block.elder_scrolls_mod.altmeri_wood_slab": "Altmeri_Wood Slab",
+      "block.elder_scrolls_mod.adoring_fan_block": "Adoring Fan Block",
+      "block.elder_scrolls_mod.altmeri_wood_log": "Altmeri_Wood Log",
+      "item.elder_scrolls_mod.tamriel": "Tamriel Portal Igniter",
+      "subtitles.adoring_fan_bye": "Adoring Fan",
+      "biome.elder_scrolls_mod.auridon_biome": "Auridon Biome",
+      "block.elder_scrolls_mod.altmeri_wood_fence": "Altmeri_Wood Fence",
+      "block.elder_scrolls_mod.altmeri_wood_wood": "Altmeri_Wood Wood",
+      "itemGroup.tabelder_scrolls_mod": "Elder Scrolls Mod",
+      "block.elder_scrolls_mod.altmeri_wood_fence_gate": "Altmeri_Wood Fence Gate",
+      "block.elder_scrolls_mod.altmeri_wood_stairs": "Altmeri_Wood Stairs",
+      "subtitles.adoring_fan_greeting": "Adoring Fan",
+      "block.elder_scrolls_mod.altmeri_wood_pressure_plate": "Altmeri_Wood Pressure Plate",
+      "block.elder_scrolls_mod.altmeri_wood_planks": "Altmeri_Wood Planks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Worldgen",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Plants",
+            "children": [
+              {
+                "name": "Aldmeri Wood",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Decoration Blocks",
+            "children": []
+          },
+          {
+            "name": "Ore",
+            "children": []
+          },
+          {
+            "name": "Other",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Armour",
+            "children": []
+          },
+          {
+            "name": "Materials",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Entities",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "elder_scrolls_mod",
+    "modName": "Elder Scrolls Mod",
+    "version": "1.0.0",
+    "author": "aaaa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.elderscrollsmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
