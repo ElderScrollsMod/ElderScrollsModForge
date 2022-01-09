@@ -9,7 +9,8 @@
       "registry_name": "tamriel",
       "metadata": {
         "ep": true
-      }
+      },
+      "path": "~/Worldgen"
     },
     {
       "name": "Nirnroot",
@@ -17,7 +18,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nirnroot"
+      "registry_name": "nirnroot",
+      "path": "~/Blocks/Plants"
     },
     {
       "name": "AdoringFanBlock",
@@ -25,7 +27,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "adoring_fan_block"
+      "registry_name": "adoring_fan_block",
+      "path": "~/Blocks/Other"
     },
     {
       "name": "ElderScrollsMod",
@@ -67,7 +70,58 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Worldgen",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Plants",
+            "children": []
+          },
+          {
+            "name": "Decoration Blocks",
+            "children": []
+          },
+          {
+            "name": "Ore",
+            "children": []
+          },
+          {
+            "name": "Other",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Armour",
+            "children": []
+          },
+          {
+            "name": "Materials",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Entities",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "elder_scrolls_mod",

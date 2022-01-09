@@ -10,7 +10,7 @@
       "metadata": {
         "ep": true
       },
-      "path": "~/Other"
+      "path": "~/Worldgen"
     },
     {
       "name": "Nirnroot",
@@ -37,6 +37,24 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elder_scrolls_mod"
+    },
+    {
+      "name": "AuridonBiome",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auridon_biome",
+      "path": "~/Worldgen"
+    },
+    {
+      "name": "Grahtwood",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grahtwood",
+      "path": "~/Worldgen"
     }
   ],
   "variable_elements": [],
@@ -65,14 +83,16 @@
       "block.elder_scrolls_mod.adoring_fan_block": "Adoring Fan Block",
       "item.elder_scrolls_mod.tamriel": "Tamriel Portal Igniter",
       "subtitles.adoring_fan_greeting": "Adoring Fan",
-      "subtitles.adoring_fan_bye": "Adoring Fan"
+      "subtitles.adoring_fan_bye": "Adoring Fan",
+      "biome.elder_scrolls_mod.auridon_biome": "Auridon Biome",
+      "biome.elder_scrolls_mod.grahtwood": "Grahtwood"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Other",
+        "name": "Worldgen",
         "children": []
       },
       {

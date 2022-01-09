@@ -17,6 +17,9 @@
       },
       {
         "value": "CUSTOM:AuridonBiome"
+      },
+      {
+        "value": "CUSTOM:Grahtwood"
       }
     ],
     "worldGenType": "Normal world gen",
