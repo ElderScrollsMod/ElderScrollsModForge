@@ -48,15 +48,6 @@
       "path": "~/Worldgen"
     },
     {
-<<<<<<< HEAD
-      "name": "Grahtwood",
-      "type": "biome",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grahtwood",
-      "path": "~/Worldgen"
-=======
       "name": "Altmeri_WoodWood",
       "type": "block",
       "sortid": 6,
@@ -235,28 +226,6 @@
       "locked_code": false,
       "registry_name": "altmeri_wood_stick_recipe",
       "path": "~/Blocks/Plants/Aldmeri Wood"
-<<<<<<< Updated upstream
->>>>>>> 8c70f202d66ae5150b03e7da47e05cc282ae47f6
-=======
-    },
-    {
-      "name": "BretonCommoner",
-      "type": "livingentity",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "breton_commoner",
-      "path": "~/Entities/Humanoids/Bretons"
-    },
-    {
-      "name": "BretonMerchant",
-      "type": "livingentity",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "breton_merchant",
-      "path": "~/Entities/Humanoids/Bretons"
->>>>>>> Stashed changes
     }
   ],
   "variable_elements": [],
@@ -281,7 +250,6 @@
   "language_map": {
     "en_us": {
       "block.elder_scrolls_mod.altmeri_wood_button": "Altmeri_Wood Button",
-      "item.elder_scrolls_mod.breton_commoner_spawn_egg": "Breton Commoner Spawn Egg",
       "block.elder_scrolls_mod.nirnroot": "Nirnroot",
       "block.elder_scrolls_mod.altmeri_wood_leaves": "Altmeri_Wood Leaves",
       "block.elder_scrolls_mod.altmeri_wood_slab": "Altmeri_Wood Slab",
@@ -290,21 +258,14 @@
       "item.elder_scrolls_mod.tamriel": "Tamriel Portal Igniter",
       "subtitles.adoring_fan_bye": "Adoring Fan",
       "biome.elder_scrolls_mod.auridon_biome": "Auridon Biome",
-<<<<<<< HEAD
-      "biome.elder_scrolls_mod.grahtwood": "Grahtwood"
-=======
       "block.elder_scrolls_mod.altmeri_wood_fence": "Altmeri_Wood Fence",
       "block.elder_scrolls_mod.altmeri_wood_wood": "Altmeri_Wood Wood",
-      "entity.elder_scrolls_mod.breton_merchant": "Breton Merchant",
       "itemGroup.tabelder_scrolls_mod": "Elder Scrolls Mod",
       "block.elder_scrolls_mod.altmeri_wood_fence_gate": "Altmeri_Wood Fence Gate",
       "block.elder_scrolls_mod.altmeri_wood_stairs": "Altmeri_Wood Stairs",
-      "entity.elder_scrolls_mod.breton_commoner": "Breton Commoner",
       "subtitles.adoring_fan_greeting": "Adoring Fan",
       "block.elder_scrolls_mod.altmeri_wood_pressure_plate": "Altmeri_Wood Pressure Plate",
-      "item.elder_scrolls_mod.breton_merchant_spawn_egg": "Breton Merchant Spawn Egg",
       "block.elder_scrolls_mod.altmeri_wood_planks": "Altmeri_Wood Planks"
->>>>>>> 8c70f202d66ae5150b03e7da47e05cc282ae47f6
     }
   },
   "foldersRoot": {

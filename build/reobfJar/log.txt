@@ -92,8 +92,12 @@ Remapping jar... 20%
 Remapping jar... 30%
 Remapping jar... 40%
 Remapping jar... 50%
+<<<<<<< Updated upstream
 >>>>>>> 8c70f202d66ae5150b03e7da47e05cc282ae47f6
 Remapping jar... 61%
+=======
+Remapping jar... 60%
+>>>>>>> Stashed changes
 Remapping jar... 70%
 Remapping jar... 80%
 Remapping jar... 90%
