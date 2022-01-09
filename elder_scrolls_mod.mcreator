@@ -48,15 +48,6 @@
       "path": "~/Worldgen"
     },
     {
-<<<<<<< HEAD
-      "name": "Grahtwood",
-      "type": "biome",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grahtwood",
-      "path": "~/Worldgen"
-=======
       "name": "Altmeri_WoodWood",
       "type": "block",
       "sortid": 6,
@@ -235,9 +226,6 @@
       "locked_code": false,
       "registry_name": "altmeri_wood_stick_recipe",
       "path": "~/Blocks/Plants/Aldmeri Wood"
-<<<<<<< Updated upstream
->>>>>>> 8c70f202d66ae5150b03e7da47e05cc282ae47f6
-=======
     },
     {
       "name": "BretonCommoner",
@@ -256,7 +244,6 @@
       "locked_code": false,
       "registry_name": "breton_merchant",
       "path": "~/Entities/Humanoids/Bretons"
->>>>>>> Stashed changes
     }
   ],
   "variable_elements": [],
@@ -290,9 +277,6 @@
       "item.elder_scrolls_mod.tamriel": "Tamriel Portal Igniter",
       "subtitles.adoring_fan_bye": "Adoring Fan",
       "biome.elder_scrolls_mod.auridon_biome": "Auridon Biome",
-<<<<<<< HEAD
-      "biome.elder_scrolls_mod.grahtwood": "Grahtwood"
-=======
       "block.elder_scrolls_mod.altmeri_wood_fence": "Altmeri_Wood Fence",
       "block.elder_scrolls_mod.altmeri_wood_wood": "Altmeri_Wood Wood",
       "entity.elder_scrolls_mod.breton_merchant": "Breton Merchant",
@@ -304,7 +288,6 @@
       "block.elder_scrolls_mod.altmeri_wood_pressure_plate": "Altmeri_Wood Pressure Plate",
       "item.elder_scrolls_mod.breton_merchant_spawn_egg": "Breton Merchant Spawn Egg",
       "block.elder_scrolls_mod.altmeri_wood_planks": "Altmeri_Wood Planks"
->>>>>>> 8c70f202d66ae5150b03e7da47e05cc282ae47f6
     }
   },
   "foldersRoot": {
