@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elderscrolls:blocks/altmeri_wood_log_top",
+    "up": "elderscrolls:blocks/altmeri_wood_log_top",
+    "north": "elderscrolls:blocks/altmeri_wood_log_side",
+    "east": "elderscrolls:blocks/altmeri_wood_log_side",
+    "south": "elderscrolls:blocks/altmeri_wood_log_side",
+    "west": "elderscrolls:blocks/altmeri_wood_log_side",
+    "particle": "elderscrolls:blocks/altmeri_wood_log_top"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "elder_scrolls_mod:blocks/altmeri_wood_planks",
-    "top": "elder_scrolls_mod:blocks/altmeri_wood_planks",
-    "side": "elder_scrolls_mod:blocks/altmeri_wood_planks"
-  }
-}

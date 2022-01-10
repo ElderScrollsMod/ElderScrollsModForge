@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elderscrolls:altmeri_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "elderscrolls:altmeri_wood_button",
+    "count": 1
+  }
+}

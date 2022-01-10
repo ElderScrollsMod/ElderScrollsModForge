@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "elderscrolls:blocks/altmeri_wood_planks"
+  }
+}

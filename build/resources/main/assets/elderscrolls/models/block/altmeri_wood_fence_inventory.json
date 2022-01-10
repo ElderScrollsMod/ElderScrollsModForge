@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "elderscrolls:blocks/altmeri_wood_planks",
+    "particle": "elderscrolls:blocks/altmeri_wood_planks"
+  }
+}

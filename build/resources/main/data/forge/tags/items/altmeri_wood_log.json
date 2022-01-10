@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "elder_scrolls_mod:altmeri_wood_wood",
-    "elder_scrolls_mod:altmeri_wood_log"
+    "elderscrolls:altmeri_wood_wood",
+    "elderscrolls:altmeri_wood_log"
   ]
 }

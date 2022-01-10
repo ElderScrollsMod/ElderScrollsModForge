@@ -1,0 +1,22 @@
+{
+  "adoring_fan_greeting": {
+    "category": "block",
+    "subtitle": "subtitles.adoring_fan_greeting",
+    "sounds": [
+      {
+        "name": "elderscrolls:adoring_fan_greeting",
+        "stream": false
+      }
+    ]
+  },
+  "adoring_fan_bye": {
+    "category": "block",
+    "subtitle": "subtitles.adoring_fan_bye",
+    "sounds": [
+      {
+        "name": "elderscrolls:adoring_fan_bye",
+        "stream": false
+      }
+    ]
+  }
+}

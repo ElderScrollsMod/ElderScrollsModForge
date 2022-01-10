@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elderscrolls:blocks/altmeri_wood_log_side",
+    "particle": "elderscrolls:blocks/altmeri_wood_log_side"
+  }
+}

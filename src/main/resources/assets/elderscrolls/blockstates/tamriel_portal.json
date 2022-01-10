@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "elderscrolls:block/tamriel_portal_ew"
+    },
+    "axis=x": {
+      "model": "elderscrolls:block/tamriel_portal_ns"
+    }
+  }
+}

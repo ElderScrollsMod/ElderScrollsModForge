@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elderscrolls:block/altmeri_wood_slab"
+    },
+    "type=top": {
+      "model": "elderscrolls:block/altmeri_wood_slab_top"
+    },
+    "type=double": {
+      "model": "elderscrolls:block/altmeri_wood_slab_full"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "elderscrolls:blocks/altmeri_wood_planks",
+    "particle": "elderscrolls:blocks/altmeri_wood_planks"
+  }
+}
