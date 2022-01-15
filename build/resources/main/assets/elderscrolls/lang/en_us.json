@@ -1,9 +1,9 @@
 {
-  "block.elderscrolls.altmeri_wood_planks": "Altmeri_Wood Planks",
   "block.elderscrolls.altmeri_wood_button": "Altmeri_Wood Button",
+  "block.elderscrolls.altmeri_wood_planks": "Altmeri_Wood Planks",
   "block.elderscrolls.altmeri_wood_leaves": "Altmeri_Wood Leaves",
-  "block.elder_scrolls_mod.altmeri_wood_button": "Altmeri_Wood Button",
   "block.elderscrolls.altmeri_wood_fence": "Altmeri_Wood Fence",
+  "block.elder_scrolls_mod.altmeri_wood_button": "Altmeri_Wood Button",
   "block.elder_scrolls_mod.altmeri_wood_leaves": "Altmeri_Wood Leaves",
   "block.elder_scrolls_mod.altmeri_wood_slab": "Altmeri_Wood Slab",
   "item.elder_scrolls_mod.tamriel": "Tamriel Portal Igniter",
@@ -19,10 +19,12 @@
   "entity.elderscrolls.breton_merchant": "Breton Merchant",
   "item.elder_scrolls_mod.breton_commoner_spawn_egg": "Breton Commoner Spawn Egg",
   "block.elder_scrolls_mod.nirnroot": "Nirnroot",
+  "item.elderscrolls.candied_nectar_bread": "Candied Nectar Bread",
   "block.elder_scrolls_mod.adoring_fan_block": "Adoring Fan Block",
   "block.elder_scrolls_mod.altmeri_wood_log": "Altmeri_Wood Log",
   "item.elderscrolls.tamriel": "Tamriel Portal Igniter",
   "block.elderscrolls.nirnroot": "Nirnroot",
+  "item.elderscrolls.honey_pudding": "Honey Pudding",
   "subtitles.adoring_fan_bye": "Adoring Fan",
   "biome.elder_scrolls_mod.auridon_biome": "Auridon Biome",
   "block.elder_scrolls_mod.altmeri_wood_wood": "Altmeri_Wood Wood",
@@ -34,8 +36,10 @@
   "block.elder_scrolls_mod.altmeri_wood_stairs": "Altmeri_Wood Stairs",
   "entity.elder_scrolls_mod.breton_commoner": "Breton Commoner",
   "biome.elderscrolls.auridon_biome": "Auridon Biome",
+  "item.elderscrolls.old_aldmeri_orphan_gruel": "Old Aldmeri Orphan Gruel",
   "block.elder_scrolls_mod.altmeri_wood_pressure_plate": "Altmeri_Wood Pressure Plate",
   "item.elder_scrolls_mod.breton_merchant_spawn_egg": "Breton Merchant Spawn Egg",
   "block.elderscrolls.altmeri_wood_wood": "Altmeri_Wood Wood",
-  "block.elder_scrolls_mod.altmeri_wood_planks": "Altmeri_Wood Planks"
+  "block.elder_scrolls_mod.altmeri_wood_planks": "Altmeri_Wood Planks",
+  "item.elderscrolls.summerset_rainbow_pie": "Summerset Rainbow Pie"
 }

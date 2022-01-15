@@ -15,6 +15,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.elderscrollsmod.item.TamrielItem;
+import net.mcreator.elderscrollsmod.item.SummersetRainbowPieItem;
+import net.mcreator.elderscrollsmod.item.OldAldmeriOrphanGruelItem;
+import net.mcreator.elderscrollsmod.item.HoneyPuddingItem;
+import net.mcreator.elderscrollsmod.item.CandiedNectarBreadItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -39,6 +43,10 @@ public class ElderscrollsModItems {
 			new Item.Properties().tab(ElderscrollsModTabs.TAB_ELDER_SCROLLS_MOD)).setRegistryName("breton_commoner_spawn_egg"));
 	public static final Item BRETON_MERCHANT = register(new SpawnEggItem(ElderscrollsModEntities.BRETON_MERCHANT, -10053121, -6697729,
 			new Item.Properties().tab(ElderscrollsModTabs.TAB_ELDER_SCROLLS_MOD)).setRegistryName("breton_merchant_spawn_egg"));
+	public static final Item CANDIED_NECTAR_BREAD = register(new CandiedNectarBreadItem());
+	public static final Item SUMMERSET_RAINBOW_PIE = register(new SummersetRainbowPieItem());
+	public static final Item OLD_ALDMERI_ORPHAN_GRUEL = register(new OldAldmeriOrphanGruelItem());
+	public static final Item HONEY_PUDDING = register(new HoneyPuddingItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

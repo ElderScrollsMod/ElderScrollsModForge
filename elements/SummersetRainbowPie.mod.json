@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "no_texture",
+    "customModelName": "Normal",
+    "name": "Summerset Rainbow Pie",
+    "rarity": "RARE",
+    "specialInfo": [
+      "A pie with filling made from game",
+      "bananas",
+      "beets",
+      "and frost mirriam."
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 6,
+    "saturation": 0.5,
+    "eatingSpeed": 35,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

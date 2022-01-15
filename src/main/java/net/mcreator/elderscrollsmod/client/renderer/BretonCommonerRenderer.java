@@ -18,6 +18,6 @@ public class BretonCommonerRenderer extends HumanoidMobRenderer<BretonCommonerEn
 
 	@Override
 	public ResourceLocation getTextureLocation(BretonCommonerEntity entity) {
-		return new ResourceLocation("elderscrolls:textures/s_k_i_n.png");
+		return new ResourceLocation("elderscrolls:textures/bretoncommon.png");
 	}
 }

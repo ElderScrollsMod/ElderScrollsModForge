@@ -1,0 +1,7 @@
+.gradle/*
+.mcreator/*
+.settings/*
+build/*
+gradle/*
+run/*
+bin/*

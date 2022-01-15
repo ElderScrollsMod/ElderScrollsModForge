@@ -5,7 +5,7 @@
     "mobName": "Breton Commoner",
     "mobLabel": "Breton Commoner",
     "mobModelName": "Biped",
-    "mobModelTexture": "s_k_i_n.png",
+    "mobModelTexture": "bretoncommon.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,

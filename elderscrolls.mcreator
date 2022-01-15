@@ -244,6 +244,51 @@
       "locked_code": false,
       "registry_name": "breton_merchant",
       "path": "~/Entities/Humanoids/Bretons"
+    },
+    {
+      "name": "BretonCommonerTable",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breton_commoner_table",
+      "path": "~/Entities/Humanoids/Bretons/NPC Loot Tables"
+    },
+    {
+      "name": "CandiedNectarBread",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candied_nectar_bread",
+      "path": "~/Items/Food/Altmer Cuisine/Sweets"
+    },
+    {
+      "name": "SummersetRainbowPie",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summerset_rainbow_pie",
+      "path": "~/Items/Food/Altmer Cuisine/Sweets"
+    },
+    {
+      "name": "OldAldmeriOrphanGruel",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_aldmeri_orphan_gruel",
+      "path": "~/Items/Food/Altmer Cuisine/Sweets"
+    },
+    {
+      "name": "HoneyPudding",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honey_pudding",
+      "path": "~/Items/Food/Altmer Cuisine/Sweets"
     }
   ],
   "variable_elements": [],
@@ -287,10 +332,12 @@
       "entity.elderscrolls.breton_merchant": "Breton Merchant",
       "item.elder_scrolls_mod.breton_commoner_spawn_egg": "Breton Commoner Spawn Egg",
       "block.elder_scrolls_mod.nirnroot": "Nirnroot",
+      "item.elderscrolls.candied_nectar_bread": "Candied Nectar Bread",
       "block.elder_scrolls_mod.adoring_fan_block": "Adoring Fan Block",
       "block.elder_scrolls_mod.altmeri_wood_log": "Altmeri_Wood Log",
       "item.elderscrolls.tamriel": "Tamriel Portal Igniter",
       "block.elderscrolls.nirnroot": "Nirnroot",
+      "item.elderscrolls.honey_pudding": "Honey Pudding",
       "subtitles.adoring_fan_bye": "Adoring Fan",
       "biome.elder_scrolls_mod.auridon_biome": "Auridon Biome",
       "block.elder_scrolls_mod.altmeri_wood_wood": "Altmeri_Wood Wood",
@@ -302,10 +349,12 @@
       "block.elder_scrolls_mod.altmeri_wood_stairs": "Altmeri_Wood Stairs",
       "entity.elder_scrolls_mod.breton_commoner": "Breton Commoner",
       "biome.elderscrolls.auridon_biome": "Auridon Biome",
+      "item.elderscrolls.old_aldmeri_orphan_gruel": "Old Aldmeri Orphan Gruel",
       "block.elder_scrolls_mod.altmeri_wood_pressure_plate": "Altmeri_Wood Pressure Plate",
       "item.elder_scrolls_mod.breton_merchant_spawn_egg": "Breton Merchant Spawn Egg",
       "block.elderscrolls.altmeri_wood_wood": "Altmeri_Wood Wood",
-      "block.elder_scrolls_mod.altmeri_wood_planks": "Altmeri_Wood Planks"
+      "block.elder_scrolls_mod.altmeri_wood_planks": "Altmeri_Wood Planks",
+      "item.elderscrolls.summerset_rainbow_pie": "Summerset Rainbow Pie"
     }
   },
   "foldersRoot": {
@@ -346,7 +395,312 @@
         "children": [
           {
             "name": "Food",
-            "children": []
+            "children": [
+              {
+                "name": "Altmer Cuisine",
+                "children": [
+                  {
+                    "name": "Sweets",
+                    "children": []
+                  },
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  },
+                  {
+                    "name": "Meals",
+                    "children": []
+                  },
+                  {
+                    "name": "Seafood",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Argonian Cuisine",
+                "children": [
+                  {
+                    "name": "Baked Goods",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruit and Vegetables",
+                    "children": []
+                  },
+                  {
+                    "name": "Meat and Seafood",
+                    "children": []
+                  },
+                  {
+                    "name": "Beverages",
+                    "children": []
+                  },
+                  {
+                    "name": "Meals Abroad",
+                    "children": []
+                  },
+                  {
+                    "name": "Soups and Stews",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Bosmer Cuisine",
+                "children": [
+                  {
+                    "name": "Meats and Fish",
+                    "children": []
+                  },
+                  {
+                    "name": "Drink",
+                    "children": []
+                  },
+                  {
+                    "name": "Dessert",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruits and Vegetables",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Breton Cuisine",
+                "children": [
+                  {
+                    "name": "Baked Goods",
+                    "children": []
+                  },
+                  {
+                    "name": "Desserts",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruit and Vegetables",
+                    "children": []
+                  },
+                  {
+                    "name": "Meats and Fish",
+                    "children": []
+                  },
+                  {
+                    "name": "Soups and Stews",
+                    "children": []
+                  },
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Dunmer Cuisine",
+                "children": [
+                  {
+                    "name": "Baked Goods",
+                    "children": []
+                  },
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruits and Vegetables",
+                    "children": []
+                  },
+                  {
+                    "name": "Meat Cheese and Fish",
+                    "children": []
+                  },
+                  {
+                    "name": "Soups and Stews",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Imperial Cuisine",
+                "children": [
+                  {
+                    "name": "Dessert",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruits and Vegetables",
+                    "children": []
+                  },
+                  {
+                    "name": "Meat and Fish",
+                    "children": []
+                  },
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  },
+                  {
+                    "name": "Spices",
+                    "children": []
+                  },
+                  {
+                    "name": "Soups and Stews",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Khajiit Cuisine",
+                "children": [
+                  {
+                    "name": "Baked Goods",
+                    "children": []
+                  },
+                  {
+                    "name": "Desserts",
+                    "children": []
+                  },
+                  {
+                    "name": "Meat and Animal Products",
+                    "children": []
+                  },
+                  {
+                    "name": "Soups and Stews",
+                    "children": []
+                  },
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Nord Cuisine",
+                "children": [
+                  {
+                    "name": "Baked Goods",
+                    "children": []
+                  },
+                  {
+                    "name": "Desserts",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruit and Vegetables",
+                    "children": []
+                  },
+                  {
+                    "name": "Meats and Fish",
+                    "children": []
+                  },
+                  {
+                    "name": "Soups and Stews",
+                    "children": []
+                  },
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Orc Cuisine",
+                "children": [
+                  {
+                    "name": "Beverages",
+                    "children": []
+                  },
+                  {
+                    "name": "Desserts",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruits and Vegetables",
+                    "children": []
+                  },
+                  {
+                    "name": "Meat and Animal Products",
+                    "children": []
+                  },
+                  {
+                    "name": "Soups and Stews",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Reachman Cuisine",
+                "children": [
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  },
+                  {
+                    "name": "Food",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Redguard Cuisine",
+                "children": [
+                  {
+                    "name": "Baked Goods",
+                    "children": []
+                  },
+                  {
+                    "name": "Meat and Animal Products",
+                    "children": []
+                  },
+                  {
+                    "name": "Fruit and Vegetables",
+                    "children": []
+                  },
+                  {
+                    "name": "Drinks",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Other Cuisine",
+                "children": [
+                  {
+                    "name": "Maormer",
+                    "children": []
+                  },
+                  {
+                    "name": "Clockwork City",
+                    "children": []
+                  },
+                  {
+                    "name": "Fargrave and the Deadlands",
+                    "children": []
+                  },
+                  {
+                    "name": "Skaal",
+                    "children": []
+                  },
+                  {
+                    "name": "Akaviri",
+                    "children": []
+                  },
+                  {
+                    "name": "Imga",
+                    "children": []
+                  },
+                  {
+                    "name": "Sload",
+                    "children": []
+                  },
+                  {
+                    "name": "Dwemer",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "Weapons",
@@ -370,7 +724,12 @@
             "children": [
               {
                 "name": "Bretons",
-                "children": []
+                "children": [
+                  {
+                    "name": "NPC Loot Tables",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
