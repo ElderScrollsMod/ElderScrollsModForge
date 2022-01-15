@@ -6,15 +6,12 @@
     "texture": "gruel",
     "customModelName": "Normal",
     "name": "Old Aldmeri Orphan Gruel",
-    "rarity": "RARE",
+    "rarity": "COMMON",
     "specialInfo": [
-      "Porridge that is traditionally served during the New Life Festival. Surprisingly tasty",
-      "it's made with barley",
-      "roses",
-      "and pumpkins."
+      "§8Traditionally served during the New Life Festival"
     ],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:ElderScrollsFood"
     },
     "stackSize": 6,
     "nutritionalValue": 10,

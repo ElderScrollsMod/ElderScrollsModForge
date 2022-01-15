@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "no_texture",
+    "customModelName": "Normal",
+    "name": "Wilted Greens",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ElderScrollsFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 8,
+    "saturation": 1.6,
+    "eatingSpeed": 48,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

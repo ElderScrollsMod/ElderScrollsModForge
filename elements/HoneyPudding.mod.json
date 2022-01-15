@@ -8,10 +8,10 @@
     "name": "Honey Pudding",
     "rarity": "COMMON",
     "specialInfo": [
-      "Honey Pudding is common in Summerset."
+      "§8A common food in Summerset"
     ],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:ElderScrollsFood"
     },
     "stackSize": 64,
     "nutritionalValue": 2,

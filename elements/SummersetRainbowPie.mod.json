@@ -6,15 +6,10 @@
     "texture": "no_texture",
     "customModelName": "Normal",
     "name": "Summerset Rainbow Pie",
-    "rarity": "RARE",
-    "specialInfo": [
-      "A pie with filling made from game",
-      "bananas",
-      "beets",
-      "and frost mirriam."
-    ],
+    "rarity": "COMMON",
+    "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:ElderScrollsFood"
     },
     "stackSize": 16,
     "nutritionalValue": 6,

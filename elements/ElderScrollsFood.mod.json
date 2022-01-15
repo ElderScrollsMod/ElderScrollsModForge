@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Elder Scrolls Food",
+    "icon": {
+      "value": "CUSTOM:OldAldmeriOrphanGruel"
+    },
+    "showSearch": true
+  }
+}

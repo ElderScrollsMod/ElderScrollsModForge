@@ -1,0 +1,28 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "no_texture",
+    "customModelName": "Normal",
+    "name": "Russafeld Red",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "A Wine from Russafeld"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElderScrollsFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 2.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

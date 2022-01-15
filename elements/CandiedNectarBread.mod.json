@@ -6,12 +6,12 @@
     "texture": "no_texture",
     "customModelName": "Normal",
     "name": "Candied Nectar Bread",
-    "rarity": "UNCOMMON",
+    "rarity": "COMMON",
     "specialInfo": [
-      "A sweet High Elven treat. Often served at the Festival of Defiance"
+      "§8Often served at the Festival of Defiance"
     ],
     "creativeTab": {
-      "value": "CUSTOM:ElderScrollsMod"
+      "value": "CUSTOM:ElderScrollsFood"
     },
     "stackSize": 64,
     "nutritionalValue": 3,
